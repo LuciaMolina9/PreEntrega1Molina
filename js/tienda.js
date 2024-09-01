@@ -51,15 +51,15 @@ let ingreso = prompt("Bienvenido a la tienda de zapatos. Ingrese el producto que
 while (ingreso !=4) {
     switch (ingreso) {
         case "1":
-            alert("Se agregó: Zapatillas");
+            alert("Se agregó: Zapatillas. Precio: $50.000");
             zapatilla++;
             break;
         case "2":
-            alert("Se agregó: Botas");
+            alert("Se agregó: Botas. Precio: $80.000");
             bota++;
             break;
         case "3":
-            alert("Se agregó: Sandalias");
+            alert("Se agregó: Sandalias. Precio: $35.000");
             sandalia++;
             break;
         default:
