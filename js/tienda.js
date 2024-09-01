@@ -3,7 +3,6 @@ const precioZapatilla = 50000
 const precioBota = 80000
 const precioSandalia = 35000
 
-
 //Variables, productos de la página
 let zapatilla = 0
 let bota = 0
@@ -72,7 +71,6 @@ while (ingreso !=4) {
 console.log("Cantidad de zapatillas: " + zapatilla); 
 console.log("Cantidad de botas: " + bota);
 console.log("Cantidad de sandalias: " + sandalia);
-
 
 subtotal()
 
